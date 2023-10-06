@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	
+	 <parameter name= "name" value = "Ever"/>
+	 <parameter name= "numb1" value = "100"/>
+	 <parameter name= "numb2" value = "50"/>
+	 
+	
+	
+  <test thread-count="5" name="Multiply">
+    <classes>
+      <class name="testNG_day02.paramMultiplyTASK"/>
+    </classes>
+    </test> <!-- Test -->
+    
+    
+      <test thread-count="5" name="Substract">
+    <classes>
+     
+      <class name="testNG_day02.paramSubstractTASK"/>
+      
+    </classes>
+  </test> <!-- paramTask1 -->
+ 
+  
+</suite> <!-- Suite -->
